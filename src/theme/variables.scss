@@ -1,0 +1,96 @@
+// Primary
+$primary: #356793;
+$primary-rgb: 53, 103, 147;
+$primary-contrast: #fff;
+$primary-contrast-rgb: 255, 255, 255;
+$primary-shade: #285b7d;
+$primary-tint: #4c749b;
+
+// Secondary
+$secondary: #ef7b8f;
+$secondary-rgb: 239, 123, 143;
+$secondary-contrast: #fff;
+$secondary-contrast-rgb: 255, 255, 255;
+$secondary-shade: #d06678;
+$secondary-tint: #f38c9f;
+
+ion-button {
+  --background: $primary;
+  --color: $primary-contrast;
+  --background-hover: $primary-tint;
+  --background-activated: $primary-shade;
+  --background-selected: $primary-shade;
+}
+
+ion-toolbar {
+  --background: $primary;
+  --color: $primary-contrast;
+}
+
+ion-item {
+  --background: #fff;
+  --color: $primary;
+  --border-color: $primary;
+}
+
+ion-card {
+  --background: #fff;
+  --color: $primary;
+  --border-color: $primary;
+}
+
+ion-card-header {
+  --background: $primary;
+  --color: $primary-contrast;
+}
+
+ion-card-subtitle {
+  --color: $primary-contrast;
+}
+
+ion-card-title {
+  --color: $primary-contrast;
+}
+
+ion-input,
+ion-textarea {
+  --background: #fff;
+  --color: $primary;
+  --placeholder-color: $primary-tint;
+  --border-color: $primary;
+}
+
+ion-checkbox {
+  --color: $primary;
+}
+
+ion-radio {
+  --color: $primary;
+}
+
+ion-range {
+  --knob-background: $primary;
+}
+
+ion-spinner {
+  --color: $primary;
+}
+
+ion-tab-bar {
+  --color-selected: $primary;
+}
+
+ion-tab-button {
+  --color-selected: $primary;
+}
+
+ion-alert,
+ion-action-sheet,
+ion-loading,
+ion-modal,
+ion-picker,
+ion-popover,
+ion-toast {
+  --background: $primary-contrast;
+  --color: $primary;
+}
